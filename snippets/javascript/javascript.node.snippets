@@ -49,3 +49,9 @@ snippet stdout
 	process.stdout
 snippet stderr
 	process.stderr
+
+snippet newpr
+	return new Promise(function(resolve, reject) {
+		${1:handler}
+	});
+
